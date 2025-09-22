@@ -17,10 +17,10 @@ function addHtmlTags() {
         // tagSpan.style.top = '-18px';
         // tagSpan.style.left = '-2px';
         // Si ya existe una etiqueta, no agregar otra
-        if (!el.querySelector('.html-tag')) {
-            el.style.position = 'relative';
-            el.insertAdjacentElement('afterbegin', tagSpan);
-        }
+        // if (!el.querySelector('.html-tag')) {
+        //     el.style.position = 'relative';
+        //     el.insertAdjacentElement('afterbegin', tagSpan);
+        // }
     });
 }
 addHtmlTags();
